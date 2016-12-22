@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title> 加载页面</title>
+  <script src="../../js/1/debug.js"></script>
+  <script src="../../js/1/hide.js"></script>
+  <script type="text/javascript">
+  //JS比较浮点数方法 toFixed(精确位数)
+  console.log(parseFloat(0.2-0.1).toFixed(1)== parseFloat(0.3-0.2).toFixed(1))
+  </script>
+ </head>
+ <body>
+	hello 
+	<button onclick="hide(this,true);debug('hidden button 1 ')">hidden1</button>
+	<button onclick="hide(this,false);debug('hidden button 2 ')">hidden2</button>
+    world
+ </body>
+</html>
